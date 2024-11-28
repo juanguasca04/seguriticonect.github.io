@@ -1,0 +1,285 @@
+/*---------------estilo incicio de sesion--------------------------*/
+
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo del contenedor de login */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f5;
+    background-image: url('https://media.istockphoto.com/id/1264142160/es/foto/formas-abstractas-de-ne%C3%B3n-holograma-led-puerta-l%C3%A1ser.jpg?s=612x612&w=0&k=20&c=yezC2swZMB0NhPRgbXbzxsr3hl3DK4fIWMvYvhOf56s=');
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Título */
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Etiquetas y campos de entrada */
+  .login-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Botón de ingreso */
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #b700ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #af07af;
+  }
+
+
+
+
+
+
+
+
+
+/* --------------------------estilo-pagina.css ------------------------------*/
+
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url(https://i.pinimg.com/474x/1d/65/cc/1d65cc9ce3375d8fe3a993b90a7d41b6.jpg);
+    
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 86px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #71777c;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #e74c3c;
+}
+
+.product-price {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #2980b9;
+}
+
+.simple-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+/* Estilos para la nueva sección */
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* Estilos para la sección con formulario y galería */
+.form-gallery-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+.form-content label {
+    display: block;
+    font-size: 1em;
+    margin: 10px 0 5px;
+}
+
+.form-content input,
+.form-content select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-content button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-content button:hover {
+    background-color: #2980b9;
+}
+
+.gallery-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.gallery-content img {
+    max-width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
